@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.preloaderComtainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: black; */
+}
+
+
+/* IF THIS DATA-AOS CREATES ERROR THEN REMOVE IT */
+[data-aos = "new-animation"] {
+    animation-iteration-count: infinite;
+}

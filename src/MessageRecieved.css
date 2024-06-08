@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    align-items: center;
+    text-align: center;
+    /* height: 500px; */
+}
+/* 
+.messageContent {
+    align-items: center;
+}  */

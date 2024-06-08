@@ -1,0 +1,86 @@
+.login {
+    padding: 0 20px 0 20px;
+    background-color: rgb(239, 37, 37);
+    cursor: pointer;
+    border-radius: 20px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.login:hover {
+    background-color: rgb(223, 137, 137);
+    /* font-weight: bold; */
+    transition: background-color 0.5s ease ;
+}
+
+.register {
+    padding: 0 20px 0 20px;
+    background-color: rgb(113, 19, 207);
+    cursor: pointer;
+    border-radius: 20px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+}
+.register:hover {
+    background-color: rgb(161, 112, 210);
+    /* font-weight: bold; */
+    transition: background-color 0.5s ease ;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.jobhunt {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(113, 19, 207);
+}
+
+.headerText {
+    font-weight: bold;
+    color: rgb(31, 21, 21);
+}
+
+.headerText:hover {
+    color: rgb(113, 19, 207);
+    /* text-shadow: 0 0 1px rgb(161, 112, 210); */
+    /* transition: color 0.5s ease , text-shadow 0.5s ease ; */
+}
+
+.myNavbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: +100;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.084);
+    background-color: white !important;
+    align-items: center;
+}
+
+.active {
+    color: rgb(113, 19, 207) !important;
+}
+
+.myNavbar .dropdown:hover .dropdown-menu{
+    display: block ;
+}
+
+.login.nav-item.active .nav-link,
+.register.nav-item.active .nav-link {
+    color: inherit !important;
+}
+  
+
+.darkmode {
+    color: black !important;
+    background-color: wh;
+}
+
+.lightmode {
+    color: white !important;
+}
+

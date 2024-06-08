@@ -1,0 +1,116 @@
+.containerFeatures {
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+    /* min-height: 100vh; */
+}
+
+.featuresHeading {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.featuresContent {
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap ;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.featuresText h1 {
+    font-weight: bold;
+}
+
+.featuresText li {
+    list-style: none;
+}
+
+.tick {
+    font-size: 1.4em !important;
+    color: rgb(113, 19, 207);
+    padding-right: 15px;
+}
+
+.readmore {
+    padding: 15px 20px;
+    display: inline-block !important;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    color: white !important;
+    background-color: rgb(113, 19, 207) !important;
+    margin-top: 20px;
+}
+
+.readmore:hover {
+    background-color: rgb(161, 112, 210) !important;
+    transition: background-color 0.5s ease !important;
+}
+
+@media (min-width : 767px) {
+    
+    .featuresImages {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 610px;
+        height: 500px;
+    }
+    .img1 {
+        height: 250px;
+        width: 250px;
+        transform: translateY(235px);
+    }
+    .img2 {
+        height: 250px;
+        width: 330px;
+        transform: translate(250px,-150px);
+    }
+    .img3 {
+        height: 200px;
+        width: 360px;
+        transform: translate(250px,-150px);
+    }
+    .featuresText {
+        display: flex;
+        flex-direction: column;
+        padding-top: 90px;
+        height: 600px;
+        width: 450px;
+    }
+}
+
+@media (max-width : 766px) {
+
+    .featuresImages {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px; 
+    }
+    .img2 {
+        height: 80px;
+        width: 110px;
+        transform: translate(50px,-90px);
+    }
+    .img3 {
+        width: 130px;
+        height: 90px;
+        transform: translate(50px,-90px);
+    }
+    .img1 {
+        width: 110px;
+        height: 80px;
+        transform: translate(-60px,70px);
+        
+    }
+    .featuresText {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
