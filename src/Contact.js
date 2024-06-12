@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
                 <div className='contactForm' data-aos="zoom-in-up" data-aos-delay="400">
                     <h1>Are You Interested ?</h1>
-                    <span style={{fontWeight:'bold'}}>To muh kya dekh ra hai bhai</span>
+                    <span style={{fontWeight:'bold'}}>So what are you waiting for?</span>
                     <span style={{fontWeight:'bold'}}>Just send us a message and We will contact you right back</span>
                     <input  className='contactTabs' placeholder='Your Name' onChange={(e) => setName(e.target.value)}/>
                     <input  className='contactTabs' placeholder='Your Email' />

@@ -15,7 +15,7 @@ const Preloader = () => {
     <>
     {/* IF NEW-ANIMATION CREATES ERROR THEN REMOVE IT */}
         <div className='preloaderComtainer' data-aos="fade-down new-animation">
-            <h1 data-aos="fade-down" data-aos-delay="1000">Ooo   Mama   Khadja</h1>
+            <h1 data-aos="fade-down" data-aos-delay="1000">Hello there !!! Hope you are having a wonderful day</h1>
         </div>
     </>
   );

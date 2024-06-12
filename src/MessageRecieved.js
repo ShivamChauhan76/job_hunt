@@ -19,7 +19,7 @@ const MessageRecieved = (props) => {
         <div className='messageContent'>
         <h1 data-aos="zoom-=out-up">Message Recieved</h1>
         <h1 data-aos="zoom-=out-up" data-aos-delay="1000">Thank You So Much</h1>
-        <h1 data-aos="zoom-=out-up" data-aos-delay="2000">Chal ab nikal {props.value}</h1>
+        <h1 data-aos="zoom-=out-up" data-aos-delay="2000">All the Best {props.value}</h1>
         </div>
       </div>
     </>
